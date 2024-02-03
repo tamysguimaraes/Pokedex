@@ -173,3 +173,8 @@
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
+
+.modal {
+    text-transform: capitalize;
+    margin-bottom: .25rem;
+}

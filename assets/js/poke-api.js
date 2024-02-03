@@ -23,14 +23,6 @@ function convertPokeApiDetailByIDToPokemon(pokemDetail) {
     pokemon.name = pokemDetail.name
     pokemon.Details= new Details()
 
-    // const types = pokemDetail.types.map((typeSlot) => typeSlot.type.name)
-    // const [type] = types
-
-    // pokemon.types = types
-    // pokemon.type = type
-
-    //pokemon.photo = pokemDetail.sprites.other.dream_world.front_default
-
     const detalhe = new Details()
 
     const habilidades = pokemDetail.abilities.map((ability) => ability.ability.name)
